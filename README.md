@@ -39,6 +39,7 @@ The current repository mainly includes knowledge about linux shell and robot ope
 > Ref:
 >
 > 1. [Linux 教程](https://www.runoob.com/linux/linux-system-contents.html)
+> 2. [Linux命令大全](https://www.runoob.com/linux/linux-command-manual.html)
 
 ---
 
