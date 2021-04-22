@@ -24,20 +24,22 @@ The current repository mainly includes knowledge about linux shell and robot ope
 ---
 ## 01. Git Basic Usage
 <!-- TOC -->
-  \- [一、基础功能](#一基础功能) 
-    \- [1.创建提交](#1创建提交)
-    \- [2.合并](#2合并)
-    \- [3.常用指令](#3常用指令)
-  \- [二、高阶功能](#二高阶功能)
-    \- [1. Amend——提交改写](#1-amend提交改写)
-    \- [2.Branch——分支](#2branch分支)
-    \- [3. Merge Branch——合并分支](#3-merge-branch合并分支)
-    \- [4. Stash——暂存](#4-stash暂存)
-    \- [5. Rebase——变基](#5-rebase变基)
-    \- [6.Checkout——签出功能](#6checkout签出功能)
-    \- [7.Undoing——撤销操作](#7undoing撤销操作)
-    \- [8. 图形化Git客户端](#8-图形化git客户端)
-    \- [常用操作](#常用操作)
+
+  - [一、基础功能](#一基础功能) 
+      - [1.创建提交](#1创建提交)
+      - [2.合并](#2合并)
+      - [3.常用指令](#3常用指令)
+  - [二、高阶功能](#二高阶功能)
+    - [1. Amend——提交改写](#1-amend提交改写)
+    - [2.Branch——分支](#2branch分支)
+    - [3. Merge Branch——合并分支](#3-merge-branch合并分支)
+    - [4. Stash——暂存](#4-stash暂存)
+    - [5. Rebase——变基](#5-rebase变基)
+    - [6.Checkout——签出功能](#6checkout签出功能)
+    - [7.Undoing——撤销操作](#7undoing撤销操作)
+    - [8. 图形化Git客户端](#8-图形化git客户端)
+    - [常用操作](#常用操作)
+
 <!-- /TOC -->
 
 ---
@@ -45,12 +47,12 @@ The current repository mainly includes knowledge about linux shell and robot ope
 <!-- TOC -->
 
 - [1. 基本使用](#1-基本使用) 
-- [2. 编辑配置文件 vimrc](#2-编辑配置文件-vimrc)  
-- [3. 常用命令](#3-常用命令)  
+- [2. 编辑配置文件 vimrc](#2-编辑配置文件-vimrc)
+- [3. 常用命令](#3-常用命令)
 - [4. 代码自动补全](#4-代码自动补全)
   - [4.1 插件 vim plug](#41-插件-vim-plug)
   - [4.2 插件 vim awesome](#42-插件-vim-awesome)
-  - [4.3 插件删除](#43-插件删除)  
+  - [4.3 插件删除](#43-插件删除)
   - [4.4 插件 vim colorscheme](#44-插件-vim-colorscheme)
 
 <!--/TOC -->
