@@ -84,13 +84,13 @@
 
 输出：
 
-![image-20210421111902762](C:\Users\34123\AppData\Roaming\Typora\typora-user-images\image-20210421111902762.png)
+![image-20210421111902762](D:\Github\ROS-Learning\imgs\image-20210421111902762.png)
 
 
 
 ## 1.1. 树状目录结构
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/d0c50-linux2bfile2bsystem2bhierarchy.jpg)
+![img](D:\Github\ROS-Learning\imgs\d0c50-linux2bfile2bsystem2bhierarchy.jpg)
 
 以下是对这些目录的解释：
 
@@ -219,7 +219,7 @@ Linux系统的启动过程可以分为5个阶段：
 
 按下计算机电源键之后，BIOS开机自检，按照BIOS中设置的启动设备来启动。当操作系统接管硬件之后，首先读入 `/boot` 目录下的内核文件。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/bg2013081702.png)
+![img](D:\Github\ROS-Learning\imgs\bg2013081702.png)
 
 ## 2.2. 运行 init
 
@@ -227,7 +227,7 @@ init 进程是系统所有进程的起点，没有这个进程，系统中任何
 
 init 进程首先读取配置文件 `/etc/inittab` 。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/bg2013081703.png)
+![img](D:\Github\ROS-Learning\imgs\bg2013081703.png)
 
 ### 2.2.1. 运行级别
 
@@ -237,7 +237,7 @@ init进程的一大任务就是去运行这些开机启动的程序。但是，�
 
 Linux允许为不同的场合，分配不同的开机启动程序，这就叫做 **运行级别(runlevel)**。启动时需要根据运行级别确定要运行哪些程序。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/bg2013081704.png)
+![img](D:\Github\ROS-Learning\imgs\bg2013081704.png)
 
 Linux系统有7个运行级别(runlevel)：
 
@@ -263,7 +263,7 @@ si::sysinit:/etc/rc.d/rc.sysinit
 
 真正的rc启动脚本都存放于 `/etc/rc.d/init.d/` 目录下。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/bg2013081705.png)
+![img](D:\Github\ROS-Learning\imgs\bg2013081705.png)
 
 注：**rc** 取自 runcom，来自 MIT 在 1965 年发展的 CTSS系统。
 
@@ -298,7 +298,7 @@ init 会打开6个终端，以便用户登录系统。在inittab中的以下6行
 - 2）ssh登录
 - 3）图形界面登录
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/bg2013081706.png)
+![img](D:\Github\ROS-Learning\imgs\bg2013081706.png)
 
 运行级别为5的图形方式的用户通过图形化的登录界面登录。登录成功后可以直接进入 KDE、Gnome 等窗口管理器。
 
@@ -316,7 +316,7 @@ Linux预设提供了六个命令窗口终端机让用户登录。默认登录的
 
 如果为 vmware 虚拟机，命令窗口切换的快捷键为 Alt + Space + F1~F6。如果在图形界面下，则可以通过 Alt + Shift + Ctrl + F1~F6 切换至命令窗口。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/bg2013081707.png)
+![img](D:\Github\ROS-Learning\imgs\bg2013081707.png)
 
 ------
 
@@ -392,11 +392,11 @@ Linux 系统是一种典型的多用户系统，不同的用户处于不同的�
 
 下图中通过 chown 来授权用户，通过 chmod 为用户设置可以开门的权限。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/1_151733904241.png)
+![img](D:\Github\ROS-Learning\imgs\1_151733904241.png)
 
 使用 **`ll`** 或者 **`ls –l`** 命令来显示一个文件的属性以及文件所属的用户和组，如：
 
-![image-20210421131808811](C:\Users\34123\AppData\Roaming\Typora\typora-user-images\image-20210421131808811.png)
+![image-20210421131808811](D:\Github\ROS-Learning\imgs\image-20210421131808811.png)
 
 
 
@@ -414,11 +414,11 @@ Linux 系统是一种典型的多用户系统，不同的用户处于不同的�
 
 接下来的字符中，以三个为一组，且均为 **rwx** 的三个参数的组合。其中， **r** 代表可读(read)、 **w** 代表可写(write)、 **x** 代表可执行(execute)。 注意，这三个权限的位置不会改变，如果没有权限，就会出现减号 **-** 而已。
 
-![img](https://www.runoob.com/wp-content/uploads/2014/06/file-llls22.jpg)
+![img](D:\Github\ROS-Learning\imgs\file-llls22.jpg)
 
 每个文件的属性由左边第一部分的 10 个字符来确定（如下图）。
 
-![363003_1227493859FdXT](https://www.runoob.com/wp-content/uploads/2014/06/363003_1227493859FdXT.png)
+![363003_1227493859FdXT](D:\Github\ROS-Learning\imgs\363003_1227493859FdXT.png)
 
 从左至右用 **0-9** 这些数字来表示。
 
@@ -1747,11 +1747,11 @@ df [-ahikHTm] [目录或文件名]
 
 以易读的容量格式显示出来：
 
-![image-20210422214752470](C:\Users\34123\AppData\Roaming\Typora\typora-user-images\image-20210422214752470.png)
+![image-20210422214752470](D:\Github\ROS-Learning\imgs\image-20210422214752470.png)
 
 将系统内的所有特殊文件格式及名称都列出来：
 
-![image-20210422214922310](C:\Users\34123\AppData\Roaming\Typora\typora-user-images\image-20210422214922310.png)
+![image-20210422214922310](D:\Github\ROS-Learning\imgs\image-20210422214922310.png)
 
 ---
 ## 6.2 du 检查文件和目录磁盘使用
@@ -1842,7 +1842,7 @@ fsck [-t 文件系统] [-ACay] 装置名称
 
 查看系统有多少文件系统支持的 fsck 命令：
 
-![image-20210422215231026](C:\Users\34123\AppData\Roaming\Typora\typora-user-images\image-20210422215231026.png)
+![image-20210422215231026](D:\Github\ROS-Learning\imgs\image-20210422215231026.png)
 
 强制检测 /dev/hdc6 分区:
 

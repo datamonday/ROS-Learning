@@ -14,9 +14,9 @@
 ---
 # Vim
 
-![vi-vim-cheat-sheet-sch](C:\Users\34123\Downloads\vi-vim-cheat-sheet-sch.gif)
+![vi-vim-cheat-sheet-sch](D:\Github\ROS-Learning\imgs\vi-vim-cheat-sheet-sch.gif)
 
-![img](https://www.runoob.com/wp-content/uploads/2014/07/vim-vi-workmodel.png)
+![img](D:\Github\ROS-Learning\imgs\vim-vi-workmodel.png)
 
 ---
 ## 1. 基本使用
