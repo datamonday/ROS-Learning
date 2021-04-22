@@ -1,13 +1,24 @@
+<!-- TOC -->
+
+- [1. 基本使用](#1-基本使用) 
+- [2. 编辑配置文件 vimrc](#2-编辑配置文件-vimrc)  
+- [3. 常用命令](#3-常用命令)  
+- [4. 代码自动补全](#4-代码自动补全)
+	- [4.1 插件 vim plug](#41-插件-vim-plug)
+	- [4.2 插件 vim awesome](#42-插件-vim-awesome)
+	- [4.3 插件删除](#43-插件删除)  
+	- [4.4 插件 vim colorscheme](#44-插件-vim-colorscheme)
+
+<!--/TOC -->
+
+---
 # Vim
 
----
+![vi-vim-cheat-sheet-sch](C:\Users\34123\Downloads\vi-vim-cheat-sheet-sch.gif)
 
-> Reference:
->
-> 1. [vim入门教程](https://www.bilibili.com/video/BV1Yt411X7mu)
+![img](https://www.runoob.com/wp-content/uploads/2014/07/vim-vi-workmodel.png)
 
 ---
-
 ## 1. 基本使用
 
 使用 vim 编辑文件：
@@ -193,9 +204,13 @@ call plug#end()
 第二步，打开文件（直接使用命令 `vim`）并进入命令模式，输入：`:PlugClean` 即可完成删除。
 
 ---
+## 4.4 插件 vim colorscheme
 
-## 4.4 插件vim colorscheme
-
+---
+> Reference:
+>
+> 1. [vim入门教程（video）](https://www.bilibili.com/video/BV1Yt411X7mu)
+> 2. [vim使用教程（blog）](https://www.runoob.com/linux/linux-vim.html)
 
 
 
