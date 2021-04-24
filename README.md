@@ -92,6 +92,31 @@ The current repository mainly includes knowledge about linux shell and robot ope
 ---
 ## 03. Shell Basic Usage
 
+<!-- TOC -->
+
+- [Shell Basic Usage](#shell-basic-usage)
+- [1. Shell 简介](#1-shell-简介)
+  - [1.1 Shell 环境](#11-shell-环境)
+  - [1.2 Shell 连接用户和内核](#12-shell-连接用户和内核)
+  - [1.3 Shell 连接其它程序](#13-shell-连接其它程序)
+  - [1.4 Shell 支持编程](#14-shell-支持编程)
+  - [1.5 Shell 是脚本语言](#15-shell-是脚本语言)
+    - [1）什么是脚本语言？](#1什么是脚本语言)
+    - [2）进入 Shell 命令的方式](#2进入-shell-命令的方式)
+  - [1.6 Perl、Python 和 Shell](#16-perlpython-和-shell)
+    - [1）Perl](#1perl)
+    - [2）Python](#2python)
+    - [3）Shell](#3shell)
+- [2. Shell 命令的基本格式](#2-shell-命令的基本格式)
+  - [2.1 使用参数](#21-使用参数)
+  - [2.2 选项附带参数](#22-选项附带参数)
+  - [2.3 第二层命令提示符](#23-第二层命令提示符)
+- [3. 运行 Shell 脚本](#3-运行-shell-脚本)
+  - [3.1 作为可执行程序](#31-作为可执行程序)
+  - [3.2 作为解释器参数](#32-作为解释器参数)
+
+<!-- /TOC -->
+
 
 ---
 ## 04. Linux Tutorial Notes
