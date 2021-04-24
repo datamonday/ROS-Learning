@@ -68,16 +68,26 @@ The current repository mainly includes knowledge about linux shell and robot ope
 ## 02. Vim Basic Usage
 <!-- TOC -->
 
-- [1. 基本使用](#1-基本使用) 
-- [2. 编辑配置文件 vimrc](#2-编辑配置文件-vimrc)
-- [3. 常用命令](#3-常用命令)
-- [4. 代码自动补全](#4-代码自动补全)
-  - [4.1 插件 vim plug](#41-插件-vim-plug)
-  - [4.2 插件 vim awesome](#42-插件-vim-awesome)
-  - [4.3 插件删除](#43-插件删除)
-  - [4.4 插件 vim colorscheme](#44-插件-vim-colorscheme)
+- [1. Vim 介绍](#1-vim-介绍)
+- [2. Vim 的三种模式](#2-vim-的三种模式)
+  - [2.1. 命令模式 (Command mode)](#21-命令模式-command-mode)
+  - [2.2. 输入模式 (Insert mode)](#22-输入模式-insert-mode)
+  - [2.3. 底线命令模式 (Last line mode)](#23-底线命令模式-last-line-mode)
+- [3. Vim 按键说明](#3-vim-按键说明)
+  - [3.1. 命令模式按键操作](#31-命令模式按键操作)
+  - [3.2. 输入模式按键操作](#32-输入模式按键操作)
+  - [3.3. 底线命令模式按键操作](#33-底线命令模式按键操作)
+- [4. Vim 实例](#4-vim-实例)
+  - [4.1. 基本使用](#41-基本使用)
+  - [4.2. 配置文件 vimrc](#42-配置文件-vimrc)
+  - [4.3. 常用命令](#43-常用命令)
+- [5. Vim 扩展](#5-vim-扩展)
+  - [5.1. 代码自动补全](#51-代码自动补全)
+  - [5.2. 插件配置](#52-插件配置)
+  - [5.3. 插件删除](#53-插件删除)
+  - [5.4. 插件 colorscheme](#54-插件-colorscheme)
 
-<!--/TOC -->
+<!-- /TOC -->
 
 ---
 ## 03. Shell Basic Usage
